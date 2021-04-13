@@ -1,11 +1,5 @@
-function hello() {
-  b=2
+function f_to_c(temp){
+  return (temp - 32)/1.8
 }
 
-hello()
-console.log(b)
-
-// console.log(hello)
-
-// x = 1
-// console.log(x)
+console.log(f_to_c(20));
