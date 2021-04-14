@@ -1,5 +1,7 @@
-function f_to_c(temp){
-  return (temp - 32)/1.8
+let hero = {
+  name: '醫護',
+  power:5,
+  healling: function(){
+  },
+  
 }
-
-console.log(f_to_c(20));
